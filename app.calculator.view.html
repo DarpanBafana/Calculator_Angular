@@ -1,0 +1,43 @@
+<h1>Calculator</h1>
+<hr>
+<input type="string" [value]="result" class="form-control">
+<hr>
+
+<input type="button" value="1" (click)= "display('1')">
+<input type="button" value="2" (click)= "display('2')" >
+<input type="button" value="3" (click)= "display('3')" >
+<br />
+<input type="button" value="4" (click)= "display('4')" >
+<input type="button" value="5" (click)= "display('5')" >
+<input type="button" value="6" (click)= "display('6')" >
+<br />
+<input type="button" value="7" (click)= "display('7')" >
+<input type="button" value="8" (click)= "display('8')" >
+<input type="button" value="9" (click)= "display('9')" >
+<br />
+<input type="button" value=" . " (click)= "display('.')" >
+<input type="button" value="0" (click)= "display('0')" >
+<!-- <input type="button" value="." (click)= "display(.)" > -->
+<hr>
+<input type="button" value="+" (click)= "getOperator('+')" >
+<input type="button" value="-" (click)= "getOperator('-')">
+<input type="button" value="*" (click)= "getOperator('*')">
+<input type="button" value="/" (click)= "getOperator('/')">
+<br>
+<hr>
+<input type="button" value="Result" (click)= "showResult(result)"  >
+<hr>
+
+<style>
+    .content {
+      max-width: 500px;
+      margin: auto;
+    }
+    </style>
+    <body>
+    
+    <div class="content">
+      <!-- Page content -->
+    </div>
+    
+    </body>
